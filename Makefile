@@ -2,7 +2,7 @@
 export
 
 install:
-	uv sync --locked
+	uv sync --open
 
 fetch_github_stars:
 	uv run python website/fetch_github_stars.py
